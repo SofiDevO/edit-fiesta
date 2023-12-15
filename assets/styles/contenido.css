@@ -1,0 +1,35 @@
+.texto__section{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+}
+.texto__titulo{
+    font-size: 5rem;
+}
+.texto__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.contenido__ejemplo{
+    font-size: 1.8rem;
+    line-height: normal;
+}
+
+.video{
+    width: 100%;
+    height: 60vh;
+}
+
+@media screen and (max-width: 768px) {
+    .video{
+        width: 90vw;
+        height: 33vh;
+    }
+}
