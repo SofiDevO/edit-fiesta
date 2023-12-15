@@ -68,8 +68,13 @@
 .copa__conac {
   width: 10rem;
 }
+.ingredientes h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 .ingredientes__item {
   list-style-type: disc;
+  font-size: 1.4rem;
 }
 .cristal__nombre {
   font-size: 1.6rem;

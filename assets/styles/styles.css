@@ -28,3 +28,7 @@ a {
 li {
   list-style: none;
 }
+
+p {
+  font-size: 1.6rem;
+}
