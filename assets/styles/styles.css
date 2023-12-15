@@ -1,31 +1,28 @@
-/* reset & Global styles */
-html {
-	/* With this font-size,a  rem will be equal to 10px */
-	font-size: 62.5%;
+:root {
+  --title-font: "Pacifico", cursive;
 }
 
 * {
-	box-sizing: border-box;
-	scroll-behavior: smooth;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-	margin: 0;
-	overflow-x: hidden;
-	width: 100%;
-	font-family: "Montserrat", sans-serif;
-	z-index: 999;
+  margin: 0;
+  overflow-x: hidden;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  z-index: 999;
 }
-
+main {
+  padding-top: 4rem;
+}
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 li {
-	list-style: none;
+  list-style: none;
 }
-
-
-
-
-

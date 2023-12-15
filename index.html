@@ -2,115 +2,107 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dark mode</title>
-    <!-- css librerias -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
-        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
-
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <!-- Styles -->
-    <link rel="stylesheet" href="./assets/styles/dark-mode.css">
-    <link rel="stylesheet" href="./assets/styles/styles.css">
-    <link rel="stylesheet" href="./assets/styles/hamburger.css">
-    <link rel="stylesheet" href="./assets/styles/contenido.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fiesta edit</title>
+  <!-- css librerias -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css" />
+  <meta name="description" content="Cotización para fiesta de Edit Elba" />
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="./assets/styles/dark-mode.css" />
+  <link rel="stylesheet" href="./assets/styles/styles.css" />
+  <link rel="stylesheet" href="./assets/styles/hamburger.css" />
+  <link rel="stylesheet" href="./assets/styles/hero.css" />
+  <link rel="stylesheet" href="./assets/styles/cristaleria.css" />
 </head>
 
 <body>
-
-    <header class="header">
-        <!-- Desktop menu -->
-        <div class="header__container">
-            <a href="index.html" class="header__logo">
-                <p class="logo__texto">SofiDev</p>
-            </a>
-            <nav class="header__nav__menu panel" id="panel">
-                <ul>
-                    <li class="menu__list"><a href="#home" class="header__menu-link">Home</a></li>
-                    <li class="menu__list"><a href="#about" class="header__menu-link">About me</a></li>
-                    <li class="menu__list"><a href="#skills" class="header__menu-link">Skills</a></li>
-                    <li class="menu__list"><a href="#hoobies" class="header__menu-link">Hobbies</a></li>
-                    <li class="menu__list"><a href="#contact" class="header__menu-link">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="toogle-btn">
-                <i class="bi bi-brightness-low-fill"></i>
-            </div>
+  <header class="header">
+    <!-- Desktop menu -->
+    <div class="header__container">
+      <a href="index.html" class="header__logo">
+        <p class="logo__texto">Drinks</p>
+      </a>
+      <nav class="header__nav__menu panel" id="panel">
+        <ul>
+          <li class="menu__list">
+            <a href="#cirstaleria" class="header__menu-link">cristalería</a>
+          </li>
+          <li class="menu__list">
+            <a href="#home" class="header__menu-link">insumos</a>
+          </li>
+          <li class="menu__list">
+            <a href="#home" class="header__menu-link">Alcohol</a>
+          </li>
+          <li class="menu__list">
+            <a href="#about" class="header__menu-link">Viaticos</a>
+          </li>
+          <li class="menu__list">
+            <a href="#skills" class="header__menu-link">Inmobiliarios</a>
+          </li>
+          <li class="menu__list">
+            <a href="#hoobies" class="header__menu-link">Flete</a>
+          </li>
+          <li class="menu__list">
+            <a href="#contact" class="header__menu-link">Servicio</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="toogle-btn">
+        <i class="bi bi-brightness-low-fill"></i>
+      </div>
+    </div>
+  </header>
+  <!-- Mobile menu (hamburger) -->
+  <button class="panel-btn hamburger hamburger--emphatic" type="button" aria-label="menu">
+    <span class="hamburger-box">
+      <span class="hamburger-inner" id="hamburguesa"></span>
+    </span>
+  </button>
+  <main>
+    <section class="hero">
+      <div class="text__container">
+        <h1 class="hero__title">Fiesta de Edit</h1>
+        <h3 class="hero__description">Cotización</h3>
+      </div>
+    </section>
+    <section class="cristaleria" id="cirstaleria">
+      <div class="productos__container" data-cristal>
+        <!-- contenido -->
+      </div>
+      </div>
+      </div>
+    </section>
+    <div class="productos__container ">
+      <div class="card__cristal card__cristal--single">
+        <div class="container__descripcion">
+          <div class="img__container">
+            <img class="copa__conac" src="https://m.media-amazon.com/images/I/41PClDfNV8L._AC_SX522_.jpg"
+              alt="Copa Coñac" />
+            <span>Copa Coñac</span>
+          </div>
+          <div class="description">
+            <p>Copa de vidrio para coñac 760 ml</p>
+            <span>Piezas: 10pz </span>
+          </div>
         </div>
-    </header>
-    <!-- Mobile menu (hamburger) -->
-    <button class="panel-btn hamburger hamburger--emphatic" type="button" aria-label="menu">
-        <span class="hamburger-box">
-            <span class="hamburger-inner" id="hamburguesa"></span>
-        </span>
-    </button>
-    <main>
+      </div>
+    </div>
+  </main>
 
-        <!-- Borra esta parte e inserta tu propio contenido -->
-        <section id="home" class="texto__section">
-            <h2 class="texto__titulo">Home</h2>
-            <div class="texto__container">
-                <p class="contenido__ejemplo">Aquí encontrarás el tutorial de "Cómo implementar Modo Oscuro en tu sitio web". Si este contenido y Material te sirve en algo, te agradezco tu like y suscríbete para tener más contenido así.</p>
-                <p class="contenido__ejemplo">Hecho con ❤️</p>
 
-            </div>
-        </section>
-        <section id="about" class="texto__section">
-            <h2 class="texto__titulo">About me</h2>
-            <div class="texto__container">
-                <p class="contenido__ejemplo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
-                    nostrum eum accusantium porro maxime. Atque assumenda temporibus eveniet similique voluptatibus
-                    facere, nihil optio illo magni quidem qui, a delectus voluptas?
-                    Eveniet ex nam animi impedit! Consequatur aut officiis facere, vitae voluptatem, iure animi fugit
-                    recusandae commodi voluptatum aperiam quas ipsum! Rem est atque neque ipsa exercitationem quis
-                    excepturi ipsum nam.</p>
-            </div>
-        </section>
-        <section id="skills" class="texto__section">
-            <h2 class="texto__titulo">Skills</h2>
-            <div class="texto__container">
-                <p class="contenido__ejemplo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
-                    nostrum eum accusantium porro maxime. Atque assumenda temporibus eveniet similique voluptatibus
-                    facere, nihil optio illo magni quidem qui, a delectus voluptas?
-                    Eveniet ex nam animi impedit! Consequatur aut officiis facere, vitae voluptatem, iure animi fugit
-                    recusandae commodi voluptatum aperiam quas ipsum! Rem est atque neque ipsa exercitationem quis
-                    excepturi ipsum nam.</p>
-            </div>
-        </section>
-
-        <section id="hoobies" class="texto__section">
-
-            <h2 class="texto__titulo">Hobbies</h2>
-            <div class="texto__container">
-                <p class="contenido__ejemplo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
-                    nostrum eum accusantium porro maxime. Atque assumenda temporibus eveniet similique voluptatibus
-                    facere, nihil optio illo magni quidem qui, a delectus voluptas?
-                    Eveniet ex nam animi impedit! Consequatur aut officiis facere, vitae voluptatem, iure animi fugit
-                    recusandae commodi voluptatum aperiam quas ipsum! Rem est atque neque ipsa exercitationem quis
-                    excepturi ipsum nam.</p>
-            </div>
-        </section>
-        <section id="contact" class="texto__section">
-            <h2 class="texto__titulo">Contact</h2>
-            <div class="texto__container">
-                <p class="contenido__ejemplo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
-                    nostrum eum accusantium porro maxime. Atque assumenda temporibus eveniet similique voluptatibus
-                    facere, nihil optio illo magni quidem qui, a delectus voluptas?
-                    Eveniet ex nam animi impedit! Consequatur aut officiis facere, vitae voluptatem, iure animi fugit
-                    recusandae commodi voluptatum aperiam quas ipsum! Rem est atque neque ipsa exercitationem quis
-                    excepturi ipsum nam.</p>
-            </div>
-        </section>
-    </main>
-
-    <script type="module" src="./modules.js"></script>
-
+  <script type="module" src="./modules.js"></script>
+  <script src="./assets/components/cardsCristal.js" type="module"></script>
 </body>
 
 </html>
