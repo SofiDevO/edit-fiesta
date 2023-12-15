@@ -6,8 +6,8 @@ export default function insumosTarjeta() {
     const Card = `
     <div class="container">
             <div class="card cCarousel-item">
-                <h3 class="card__desc">${data.nombre}</h3>
-                <img class="card__img" src="${data.img}" alt="${data.nombre}">
+            <img class="card__img" src="${data.img}" alt="${data.nombre}">
+            <h3 class="card__desc">${data.nombre}</h3>
             </div>
         </div>
         `;
