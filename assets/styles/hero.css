@@ -10,7 +10,7 @@
   padding-top: 0rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   background-repeat: no-repeat;
   background-position: center;
@@ -41,12 +41,23 @@
 
 .hero__description {
   color: white;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .elefante {
   width: 20rem;
 }
-
+.btn__descargar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.4rem 2rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 13px;
+  background-color: black;
+  border: 2px solid rgb(0, 255, 234);
+  color: rgb(0, 255, 234);
+}
 @media screen and (max-width: 768px) {
   .hero__title {
     font-size: 3rem;

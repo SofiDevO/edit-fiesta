@@ -14,7 +14,7 @@
   padding: 0 18px;
   transition: all 0.9s;
   background-color: black;
-  padding: 0 2rem;
+  padding: 0 3rem;
 }
 
 .header__container {
@@ -39,7 +39,7 @@
 }
 
 .header__nav__menu a {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 400;
   color: unset;
   cursor: pointer;
@@ -55,7 +55,7 @@
 }
 
 .bi-brightness-low-fill {
-  font-size: 2.3rem;
+  font-size: 3.2rem;
   color: white;
 }
 .bi-moon-stars-fill {
