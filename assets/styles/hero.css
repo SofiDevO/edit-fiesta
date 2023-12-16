@@ -45,7 +45,24 @@
 }
 .elefante {
   width: 20rem;
+  animation: anim 4s infinite;
+  animation-delay: 0.9s;
 }
+
+@keyframes anim {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-9px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .btn__descargar {
   display: flex;
   align-items: center;
