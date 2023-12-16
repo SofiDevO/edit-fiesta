@@ -1,10 +1,10 @@
-export default function carrusel() {
-  const prev = document.querySelector("#prev");
-  const next = document.querySelector("#next");
+export default function carrusel2() {
+  const prev = document.querySelector("#prev2");
+  const next = document.querySelector("#next2");
 
-  let carouselVp = document.querySelector("#carousel-vp");
+  let carouselVp = document.querySelector("#carousel-vp2");
 
-  let cCarouselInner = document.querySelector("#cCarousel-inner");
+  let cCarouselInner = document.querySelector("#cCarousel-inner2");
   let carouselInnerWidth = cCarouselInner.getBoundingClientRect().width;
 
   let leftValue = 0;
@@ -12,7 +12,7 @@ export default function carrusel() {
   // Variable used to set the carousel movement value (card's width + gap)
   const totalMovementSize =
     parseFloat(
-      document.querySelector(".cCarousel-item").getBoundingClientRect().width,
+      document.querySelector(".cCarousel-item2").getBoundingClientRect().width,
       10
     ) +
     parseFloat(
